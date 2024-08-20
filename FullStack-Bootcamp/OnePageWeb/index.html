@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        header{
+            background-color: black;
+            color:white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(190, 182, 182);
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+             padding-right: 25px;
+        }
+        .about-us{
+            background-color: rgb(160, 117, 117);
+        }
+        .about-us h1{
+            color: rgb(245, 61, 61);
+            font-size: 80px;
+            text-align: center;
+        }
+        .about-us p{
+            font-size: 20px;
+            color: white;
+            margin: 20px;
+            text-align: center;
+        }
+        .team{
+            text-decoration: none;
+            color:rgb(0,0,0);
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left: 500px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>ONE PAGE WEBSITE</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Service.html">Services</a>
+    </nav>
+
+    <section class="about-us">
+        <h1>About Us</h1>
+        <p> Technology is the application of conceptual knowledge to achieve practical goals, especially in a reproducible way.The word technology can also mean the products resulting from such efforts, including both tangible tools such as utensils or machines, and intangible ones such as software. Technology plays a critical role in science, engineering, and everyday life.</p>
+    <a href="#" class="team">Our Team </a>
+    </section>
+</body>
+
+<p id="demo"></p>
+    <script src="https:translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script>
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement(
+               {pageLanguage:'en'},
+    'demo'
+            );
+        }
+    </script>
+
+</html>

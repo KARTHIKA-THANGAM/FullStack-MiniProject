@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <Style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            margin: auto;
+            max-width: 600px;
+        }
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+        input,textarea{
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: red;
+            color:white;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+        }
+
+    </Style>
+</head>
+<body>
+    <h1>Contact</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" id="name">
+        <label>Email:</label>
+        <input type="email" id="email">
+        <label>Message</label>
+        <textarea id="message"></textarea>
+        <button>submit</button>
+    </form>
+</body>
+</html>
